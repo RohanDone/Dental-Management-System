@@ -1,0 +1,78 @@
+.process .box-container {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+    margin-left: -30px;
+}
+
+.process .box-container .box {
+    background-color: var(--blue);
+    padding: 2rem;
+    border-radius: .5rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    transition: all 0.5s ease-in-out;
+}
+
+
+.process .box-container .box:hover {
+    transform: scale(1.05);
+}
+
+.process .box-container .box img {
+    height: 20rem;
+    margin: 1rem 0;
+}
+
+.process .box-container .box h3 {
+    font-size: 2rem;
+    color: var(--white);
+    margin: 1.5rem 0;
+}
+
+.process .box-container .box p {
+    font-size: 1.5rem;
+    color: var(--white);
+    line-height: 2;
+}
+
+.box1 {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: center;
+    color: black;
+    size: 50px;
+    font-size: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.img {
+    text-align: center;
+    background-color: yellow;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 20px;
+    color: black;
+    height: 50px;
+}
+
+h1 {
+    color: red;
+}
+
+hr {
+    width: 150px;
+    border: 2px solid black;
+    background-color: black;
+}
+
+.heading {
+    text-align: center;
+    background-color: yellow;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+    color: black;
+}
